@@ -34,6 +34,11 @@ game-store
     │   └── Contact
     │       ├── Contact.js
     │       └── Contact.scss
+    ├── games
+    |   ├── TicTacToe
+    |   │   ├── TicTacToe.js
+    |   │   └── TicTacToe.scss
+    |   │
     └── styles
     │   ├── global.scss
     │   └── global.scss
