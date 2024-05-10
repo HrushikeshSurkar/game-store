@@ -39,6 +39,19 @@ game-store
     |   │   ├── TicTacToe.js
     |   │   └── TicTacToe.scss
     |   │
+    |   ├── CodeCraft
+    |   │   ├── Components
+    |   │   |   ├── GameArea
+    |   │   |   |   ├── GameArea.js
+    |   │   |   |   └── GameArea.scss
+    |   │   |   |
+    |   │   |   └── GameControls
+    |   │   |       ├── GameControls.js
+    |   │   |       └── GameControls.scss
+    |   │   |
+    |   │   ├── CodeCraft.js
+    |   │   └── CodeCraft.scss
+    |   │
     └── styles
     │   ├── global.scss
     │   └── global.scss
