@@ -52,6 +52,50 @@ game-store
     |   │   ├── CodeCraft.js
     |   │   └── CodeCraft.scss
     |   │
+    │   ├── TheWarrior
+    │   │   ├── Components
+    │   │   │   ├── Character
+    │   │   │   │   ├── CharacterStats.js
+    │   │   │   │   ├── CharacterActions.js
+    │   │   │   │   └── Character.scss
+    │   │   │   │
+    │   │   │   ├── Combat
+    │   │   │   │   ├── Battle.js
+    │   │   │   │   ├── Enemy.js
+    │   │   │   │   └── Combat.scss
+    │   │   │   │
+    │   │   │   ├── GameWorld
+    │   │   │   │   ├── Map.js
+    │   │   │   │   ├── Location.js
+    │   │   │   │   └── GameWorld.scss
+    │   │   │   │
+    │   │   │   ├── Inventory
+    │   │   │   │   ├── Inventory.js
+    │   │   │   │   ├── Item.js
+    │   │   │   │   └── Inventory.scss
+    │   │   │   │
+    │   │   │   ├── Quest
+    │   │   │   │   ├── QuestLog.js
+    │   │   │   │   ├── QuestItem.js
+    │   │   │   │   └── Quest.scss
+    │   │   │   │
+    │   │   │   └── HUD
+    │   │   │       ├── HUD.js
+    │   │   │       ├── MiniMap.js
+    │   │   │       └── HUD.scss
+    │   │   │
+    │   │   ├── TheWarrior.js
+    │   │   └── TheWarrior.scss
+    │
+    ├── redux
+    │   ├── TheWarrior
+    │   │   ├── actions.js
+    │   │   ├── reducer.js
+    │   │   ├── types.js
+    │   │   └── selectors.js
+    │   ├── rootReducer.js
+    │   └── store.js
+    │
     └── styles
     │   ├── global.scss
     │   └── global.scss
