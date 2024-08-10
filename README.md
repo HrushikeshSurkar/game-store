@@ -98,6 +98,12 @@ game-store
     │   └── routes.js
     │
     ├── redux
+    │   ├── layout
+    │   │   ├── actions.js
+    │   │   ├── reducer.js
+    │   │   ├── selectors.js
+    │   │   └── types.js
+    │   │
     │   ├── TheWarrior
     │   │   ├── actions.js
     │   │   ├── reducer.js
