@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgame_store=self.webpackChunkgame_store||[]).push([[703],{703:(e,r,s)=>{s.r(r),s.d(r,{default:()=>t});var a=s(579);const t=()=>(0,a.jsx)("div",{children:"TheWarrior"})}}]);
-//# sourceMappingURL=703.013ebc21.chunk.js.map
