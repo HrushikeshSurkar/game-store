@@ -89,6 +89,16 @@ game-store
     │   │   │       ├── HUD.js
     │   │   │       ├── MiniMap.js
     │   │   │       └── HUD.scss
+    │   │   ├── pages
+    │   │   │   ├── CommonComponents
+    │   │   │   │   ├── BackButton.js
+    │   │   │   ├── StartMenu
+    │   │   │   │   ├── StartMenu.js
+    │   │   │   │   └── StartMenu.scss
+    │   │   │   │
+    │   │   │   ├── MainArena
+    │   │   │   │   ├── MainArena.js
+    │   │   │   │   └── MainArena.scss
     │   │   │
     │   │   ├── TheWarrior.js
     │   │   └── TheWarrior.scss
