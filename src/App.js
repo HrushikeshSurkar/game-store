@@ -1,15 +1,22 @@
-import "./App.css";
-import "./styles/global.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import TicTacToe from "./games/TicTacToe/TicTacToe";
-import CodeCraft from "./games/CodeCraft/CodeCraft";
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import Header from "./components/ui/Header/Header";
+import Footer from "./components/ui/Footer/Footer";
+import MainLayout from "./components/layout/MainLayout/MainLayout";
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
-    <main>
-      {/* <TicTacToe /> */}
-      <CodeCraft />
-    </main>
+    <Router>
+      <Header />
+      <MainLayout>
+        <Container>
+          <AppRouter />
+        </Container>
+      </MainLayout>
+      <Footer />
+    </Router>
   );
 }
 

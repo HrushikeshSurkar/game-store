@@ -1,17 +1,22 @@
-Project Structure
+# Game Store
 
-```
+## Project Structure
+
+```bash
 game-store
 └── src
     ├── components
     │   ├── ui
     │   │   ├── Header
-    │   │   |   ├── Header.js
-    │   │   |   └── Header.scss
-    │   │   |
+    │   │   │   ├── Header.js
+    │   │   │   ├── Header.scss
+    │   │   │   └── Navbar
+    │   │   │       ├── Navbar.js
+    │   │   │       └── Navbar.scss
+    │   │   │
     │   │   └── Footer
-    │   │   ├── Footer.js
-    │   │   └── Footer.scss
+    │   │       ├── Footer.js
+    │   │       └── Footer.scss
     │   │
     │   └── layout
     │       └── MainLayout
@@ -20,38 +25,39 @@ game-store
     │
     ├── pages
     │   ├── Home
-    │   |   ├── Home.js
-    │   |   └── Home.scss
-    │   |
+    │   │   ├── Home.js
+    │   │   └── Home.scss
+    │   │
     │   ├── About
-    │   |   ├── About.js
-    │   |   └── About.scss
-    │   |
+    │   │   ├── About.js
+    │   │   └── About.scss
+    │   │
     │   ├── Blogs
-    │   |   ├── Blogs.js
-    │   |   └── Blogs.scss
-    │   |
+    │   │   ├── Blogs.js
+    │   │   └── Blogs.scss
+    │   │
     │   └── Contact
     │       ├── Contact.js
     │       └── Contact.scss
+    │
     ├── games
-    |   ├── TicTacToe
-    |   │   ├── TicTacToe.js
-    |   │   └── TicTacToe.scss
-    |   │
-    |   ├── CodeCraft
-    |   │   ├── Components
-    |   │   |   ├── GameArea
-    |   │   |   |   ├── GameArea.js
-    |   │   |   |   └── GameArea.scss
-    |   │   |   |
-    |   │   |   └── GameControls
-    |   │   |       ├── GameControls.js
-    |   │   |       └── GameControls.scss
-    |   │   |
-    |   │   ├── CodeCraft.js
-    |   │   └── CodeCraft.scss
-    |   │
+    │   ├── TicTacToe
+    │   │   ├── TicTacToe.js
+    │   │   └── TicTacToe.scss
+    │   │
+    │   ├── CodeCraft
+    │   │   ├── Components
+    │   │   │   ├── GameArea
+    │   │   │   │   ├── GameArea.js
+    │   │   │   │   └── GameArea.scss
+    │   │   │   │
+    │   │   │   └── GameControls
+    │   │   │       ├── GameControls.js
+    │   │   │       └── GameControls.scss
+    │   │   │
+    │   │   ├── CodeCraft.js
+    │   │   └── CodeCraft.scss
+    │   │
     │   ├── TheWarrior
     │   │   ├── Components
     │   │   │   ├── Character
@@ -87,6 +93,10 @@ game-store
     │   │   ├── TheWarrior.js
     │   │   └── TheWarrior.scss
     │
+    ├── router
+    │   ├── AppRouter.js
+    │   └── routes.js
+    │
     ├── redux
     │   ├── TheWarrior
     │   │   ├── actions.js
@@ -96,12 +106,19 @@ game-store
     │   ├── rootReducer.js
     │   └── store.js
     │
-    └── styles
+    ├── constants
+    │   └── gameConstants.js
+    │
+    ├── helpers
+    │   ├── utils.js
+    │   └── helpers.js
+    │
+    ├── styles
     │   ├── global.scss
-    │   └── global.scss
+    │   └── variables.scss
     │
     ├── assets
-    |   └── Assets.js
+    │   └── Assets.js
     │
     ├── App.css
     ├── App.js
