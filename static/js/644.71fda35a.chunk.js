@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgame_store=self.webpackChunkgame_store||[]).push([[644],{644:(e,s,a)=>{a.r(s),a.d(s,{default:()=>t});a(43);var r=a(579);const t=()=>(0,r.jsx)("div",{children:"Blogs"})}}]);
+//# sourceMappingURL=644.71fda35a.chunk.js.map
