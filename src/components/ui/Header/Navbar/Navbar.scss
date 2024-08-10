@@ -1,25 +1,53 @@
+/* Navbar.scss */
+
+/* Customizing the overall Navbar */
 .navbar {
-    display: flex;
-    align-items: center;
+    background-color: #343a40;
+    /* dark background color */
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    /* example font */
+
+    /* Navbar Brand styling */
+    .navbar-brand {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        &:hover {
+            color: #dddddd;
+        }
+    }
+
+    /* Navbar toggler for small screens */
+    .navbar-toggler {
+        border: none;
+        outline: none;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    /* Navbar collapse */
+    .navbar-collapse {
+        @media (max-width: 991px) {
+            background-color: #343a40;
+            /* Background color on mobile */
+            padding: 10px 15px;
+        }
+    }
 }
 
-.navbar-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
 
-.navbar-item {
-    margin-left: 20px;
-}
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+    }
 
-.navbar-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.navbar-link:hover {
-    text-decoration: underline;
+    .nav-link {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
 }

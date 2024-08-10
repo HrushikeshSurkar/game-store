@@ -1,21 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.scss";
+import { Navbar, Nav } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import { links } from "../../../../constants/gameConstants";
-const Navbar = () => {
+import "./Navbar.scss";
+
+const CustomNavbar = () => {
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        {links.map((link, index) => (
-          <li key={index} className="navbar-item">
-            <Link to={link.path} className="navbar-link">
-              {link.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
+      <Navbar.Brand href="/">Game Store</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          {links.map((link, index) => (
+            <LinkContainer key={index} to={link.path}>
+              <Nav.Link>{link.label}</Nav.Link>
+            </LinkContainer>
+          ))}
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default CustomNavbar;
