@@ -7,4 +7,5 @@ export const links = [
   { path: "/games/the-warrior", label: "The Warrior" },
   { path: "/games/code-craft", label: "CodeCraft" },
   { path: "/games/tic-tac-toe", label: "TicTacToe" },
+  { path: "/games/take-over", label: "TakeOver" },
 ];

@@ -89,6 +89,7 @@ game-store
     │   │   │       ├── HUD.js
     │   │   │       ├── MiniMap.js
     │   │   │       └── HUD.scss
+    |   │   │
     │   │   ├── pages
     │   │   │   ├── CommonComponents
     │   │   │   │   ├── BackButton.js
@@ -102,7 +103,57 @@ game-store
     │   │   │
     │   │   ├── TheWarrior.js
     │   │   └── TheWarrior.scss
-    │
+    │   │
+    │   ├── TakeOver
+    │   │   ├── Components
+    │   │   │   ├── Towers
+    │   │   │   │   ├── Towers.js
+    │   │   │   │   └── Towers.scss
+    │   │   │   │
+    │   │   │   ├── Maps
+    │   │   │   │   ├── Maps.js
+    │   │   │   │   └── Maps.scss
+    │   │   │   │
+    │   │   │   ├── Roads
+    │   │   │   │   ├── Roads.js
+    │   │   │   │   └── Roads.scss
+    │   │   │   │
+    │   │   │   ├── GameBoard
+    │   │   │   │   ├── GameBoard.js
+    │   │   │   │   └── GameBoard.scss
+    │   │   │   │
+    │   │   │   ├── PopulationDisplay
+    │   │   │   │   ├── PopulationDisplay.js
+    │   │   │   │   └── PopulationDisplay.scss
+    │   │   │   │
+    │   │   │   ├── AI
+    │   │   │   │   ├── AI.js
+    │   │   │   │   └── strategies.js
+    │   │   │   │
+    │   │   │   ├── GameManager
+    │   │   │   │   ├── GameManager.js
+    │   │   │   │   └── GameManager.scss
+    │   │   │   │
+    │   │   │   ├── GameSetup
+    │   │   │   │   ├── GameSetup.js
+    │   │   │   │   └── GameSetup.scss
+    │   │   │   │
+    │   │   │   ├── GameArena
+    │   │   │   │   ├── GameArena.js
+    │   │   │   │   └── GameArena.scss
+    │   │   │   │
+    │   │   │   ├── StartMenu
+    │   │   │   │   ├── StartMenu.js
+    │   │   │   │   └── StartMenu.scss
+    │   │   │   │
+    │   │   │   └── CommonComponents
+    │   │   │       ├── BackButton
+    |   │   │       |  ├── BackButton.js
+    │   │   │       |  └── BackButton.scss
+    │   │   │
+    │   │   ├── TakeOver.js
+    │   │   └── TakeOver.scss
+    │   │
     ├── router
     │   ├── AppRouter.js
     │   └── routes.js

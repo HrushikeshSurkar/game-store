@@ -1,0 +1,55 @@
+.start-menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    /* Adjust height to account for any fixed headers */
+    width: 100%;
+
+    .start-menu-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        .start-menu {
+            width: 60%;
+            /* Adjusted width for a better view */
+            max-width: 600px;
+            /* Set a max width for larger screens */
+            height: auto;
+            /* Allow height to adjust based on content */
+            background-color: #003e7d;
+            padding: 40px;
+            /* Increased padding for a more spacious feel */
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            /* Slightly larger border radius */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            /* More pronounced shadow */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .start-game {
+                padding: 12px 24px;
+                /* Increased padding for button-like appearance */
+                font-size: 18px;
+                /* Larger font size */
+                background-color: #007bff;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s, transform 0.3s;
+                /* Added transform transition */
+
+                &:hover {
+                    background-color: #0056b3;
+                    /* Darker shade on hover */
+                    transform: scale(1.05);
+                    /* Slightly enlarge on hover */
+                }
+            }
+        }
+    }
+}

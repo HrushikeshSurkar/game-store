@@ -1,0 +1,6 @@
+// Roads/Road.scss
+.road {
+    position: absolute; // Use absolute positioning for roads
+    background-color: #8B4513; // Brown color for roads
+    z-index: 1; // Ensure roads are below the towers but above the background
+}

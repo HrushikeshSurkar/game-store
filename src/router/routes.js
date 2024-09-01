@@ -7,6 +7,7 @@ const Contact = lazy(() => import("../pages/Contact/Contact"));
 const TheWarrior = lazy(() => import("../games/TheWarrior/TheWarrior"));
 const CodeCraft = lazy(() => import("../games/CodeCraft/CodeCraft"));
 const TicTacToe = lazy(() => import("../games/TicTacToe/TicTacToe"));
+const TakeOver = lazy(() => import("../games/TakeOver/TakeOver"));
 
 export const routes = [
   { path: "/", element: <Home /> },
@@ -16,4 +17,5 @@ export const routes = [
   { path: "/games/the-warrior", element: <TheWarrior /> },
   { path: "/games/code-craft", element: <CodeCraft /> },
   { path: "/games/tic-tac-toe", element: <TicTacToe /> },
+  { path: "/games/take-over", element: <TakeOver /> },
 ];

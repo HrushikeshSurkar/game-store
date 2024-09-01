@@ -1,0 +1,70 @@
+.game-arena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(194, 194, 194);
+    padding: 40px;
+
+    .tower {
+        background-color: red;
+        width: 120px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+
+        &.computer {
+            background-color: blue;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        gap: 20px; // Space between buttons
+    }
+
+    .action-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darkgreen;
+        }
+    }
+
+    .message {
+        margin-top: 20px;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+}

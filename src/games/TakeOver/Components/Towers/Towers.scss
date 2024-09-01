@@ -1,0 +1,13 @@
+/* Towers/Towers.scss */
+.tower {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dragging {
+    opacity: 0.5;
+    /* Make the tower semi-transparent while dragging */
+}

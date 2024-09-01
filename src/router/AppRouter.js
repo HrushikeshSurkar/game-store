@@ -4,13 +4,14 @@ import { useDispatch } from "react-redux";
 import { setHeaderVisible, setFooterVisible } from "../redux/layout/reducer";
 import { routes } from "./routes";
 import MainLayout from "../components/layout/MainLayout/MainLayout";
+import { basicConfiguration } from "../constants/basicConfiguration";
 
 function AppRouter() {
   const dispatch = useDispatch();
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/games/the-warrior") {
+    if (basicConfiguration.includes(location.pathname)) {
       dispatch(setHeaderVisible(false));
       dispatch(setFooterVisible(false));
     } else {
