@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-store/static/css/main.2592efad.css",
-    "main.js": "/game-store/static/js/main.147db15e.js",
+    "main.js": "/game-store/static/js/main.b758c6aa.js",
     "static/css/608.31d6cfe0.chunk.css": "/game-store/static/css/608.31d6cfe0.chunk.css",
     "static/js/608.da15aed3.chunk.js": "/game-store/static/js/608.da15aed3.chunk.js",
     "static/css/872.31d6cfe0.chunk.css": "/game-store/static/css/872.31d6cfe0.chunk.css",
@@ -16,11 +16,13 @@
     "static/js/559.536db1b6.chunk.js": "/game-store/static/js/559.536db1b6.chunk.js",
     "static/css/809.5f40afaa.chunk.css": "/game-store/static/css/809.5f40afaa.chunk.css",
     "static/js/809.15b2438a.chunk.js": "/game-store/static/js/809.15b2438a.chunk.js",
+    "static/css/827.d322b788.chunk.css": "/game-store/static/css/827.d322b788.chunk.css",
+    "static/js/827.7843c604.chunk.js": "/game-store/static/js/827.7843c604.chunk.js",
     "static/js/453.afcb7c3a.chunk.js": "/game-store/static/js/453.afcb7c3a.chunk.js",
     "static/js/318.6a757d07.chunk.js": "/game-store/static/js/318.6a757d07.chunk.js",
     "index.html": "/game-store/index.html",
     "main.2592efad.css.map": "/game-store/static/css/main.2592efad.css.map",
-    "main.147db15e.js.map": "/game-store/static/js/main.147db15e.js.map",
+    "main.b758c6aa.js.map": "/game-store/static/js/main.b758c6aa.js.map",
     "608.da15aed3.chunk.js.map": "/game-store/static/js/608.da15aed3.chunk.js.map",
     "872.2c3d3d7c.chunk.js.map": "/game-store/static/js/872.2c3d3d7c.chunk.js.map",
     "644.71fda35a.chunk.js.map": "/game-store/static/js/644.71fda35a.chunk.js.map",
@@ -31,11 +33,13 @@
     "559.536db1b6.chunk.js.map": "/game-store/static/js/559.536db1b6.chunk.js.map",
     "809.5f40afaa.chunk.css.map": "/game-store/static/css/809.5f40afaa.chunk.css.map",
     "809.15b2438a.chunk.js.map": "/game-store/static/js/809.15b2438a.chunk.js.map",
+    "827.d322b788.chunk.css.map": "/game-store/static/css/827.d322b788.chunk.css.map",
+    "827.7843c604.chunk.js.map": "/game-store/static/js/827.7843c604.chunk.js.map",
     "453.afcb7c3a.chunk.js.map": "/game-store/static/js/453.afcb7c3a.chunk.js.map",
     "318.6a757d07.chunk.js.map": "/game-store/static/js/318.6a757d07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2592efad.css",
-    "static/js/main.147db15e.js"
+    "static/js/main.b758c6aa.js"
   ]
 }
