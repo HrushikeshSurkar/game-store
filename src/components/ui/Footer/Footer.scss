@@ -1,0 +1,29 @@
+$footer-bg-color: #f1f1f1;
+$footer-text-color: #333;
+$footer-border-color: #ddd;
+$footer-font-family: Arial, sans-serif;
+$footer-font-size: 14px;
+$footer-padding: 20px;
+
+// Footer Styling
+.footer {
+  text-align: center;
+  padding: $footer-padding;
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  font-size: $footer-font-size;
+  border-top: 1px solid $footer-border-color;
+  font-family: $footer-font-family;
+
+  // Paragraph inside footer
+  p {
+    margin: 0;
+    color: lighten($footer-text-color, 20%); // Slightly lighter text color
+  }
+
+  // Media query for responsive design
+  @media (max-width: 768px) {
+    padding: 15px;
+    font-size: 12px;
+  }
+}
